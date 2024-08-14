@@ -1,0 +1,6 @@
+PrevalenceSampling:
+  type: preprocessing
+
+defaults:
+  - PrevalenceSampling/preprocessing: PrevalenceSampling
+  - PrevalenceSampling/inprocessing: lightgbm

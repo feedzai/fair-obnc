@@ -1,0 +1,10 @@
+PrevalenceSampling:
+  classpath: aequitas.flow.methods.preprocessing.prevalence_sample.PrevalenceSampling
+  args:
+    alpha:
+      type: float
+      range: [0.1, 1.0]
+    
+    strategy:
+      - undersample
+      - oversample

@@ -1,0 +1,6 @@
+DataRepairer:
+  type: preprocessing
+
+defaults:
+  - DataRepairer/preprocessing: DataRepairer
+  - DataRepairer/inprocessing: lightgbm

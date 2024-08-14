@@ -1,0 +1,34 @@
+OBNC:
+  classpath: aequitas.flow.methods.preprocessing.label_flipping.LabelFlipping
+  args:
+    max_flip_rate:
+      type: float
+      range: [0.0, 0.5]
+
+    bagging_max_samples:
+      type: float
+      range: [0.0, 1.0]
+
+    bagging_base_estimator:
+      - lightgbm.LGBMClassifier
+
+    bagging_n_estimators:
+      type: int
+      range: [5, 30]
+      log: True
+
+    fair_ordering:
+      - False 
+
+    ordering_method:
+      - ensemble_margin
+
+    boosting_type:
+      - dart
+      - gbdt
+
+    random_state:
+      - 42
+
+    n_jobs:
+      - 40

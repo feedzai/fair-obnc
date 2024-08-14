@@ -1,0 +1,6 @@
+Fair-OBNC:
+  type: preprocessing
+
+defaults:
+  - Fair-OBNC/preprocessing: Fair-OBNC
+  - Fair-OBNC/inprocessing: lightgbm

@@ -1,0 +1,6 @@
+CorrelationSuppression:
+  classpath: aequitas.flow.methods.preprocessing.correlation_suppression.CorrelationSuppression
+  args:
+    correlation_threshold:
+      type: float
+      range: [0.1, 0.9]

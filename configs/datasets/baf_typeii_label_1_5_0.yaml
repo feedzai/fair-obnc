@@ -1,0 +1,13 @@
+baf_typeii_label_1_5_0:
+  args:
+    dataset: BankAccountFraud
+    noise_rates:
+      0: 0.05
+      1: 0.0
+    variant: TypeII
+    y_dependant:
+    - 1
+  classpath: datasets.NoisyDataset
+  threshold:
+    threshold_type: top_pct
+    threshold_value: 0.01

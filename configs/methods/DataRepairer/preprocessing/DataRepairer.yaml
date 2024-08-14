@@ -1,0 +1,6 @@
+DataRepairer:
+  classpath: aequitas.flow.methods.preprocessing.data_repairer.DataRepairer
+  args:
+    repair_level:
+      type: float
+      range: [0.1, 1.0]

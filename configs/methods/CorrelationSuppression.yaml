@@ -1,0 +1,6 @@
+CorrelationSuppression:
+  type: preprocessing
+
+defaults:
+  - CorrelationSuppression/preprocessing: CorrelationSuppression
+  - CorrelationSuppression/inprocessing: lightgbm

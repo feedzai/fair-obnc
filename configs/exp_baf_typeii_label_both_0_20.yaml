@@ -1,0 +1,17 @@
+datasets:
+- baf_typeii_label_both_0_20
+methods:
+- lightgbm
+- OBNC
+- Fair-OBNC
+- DataRepairer
+- Massaging
+- PrevalenceSampling
+- CorrelationSuppression
+- FeatureImportanceSuppression
+optimization:
+  n_jobs: 1
+  n_trials: 50
+  sampler: RandomSampler
+  sampler_args:
+    seed: 42

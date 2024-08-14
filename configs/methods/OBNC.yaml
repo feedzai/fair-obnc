@@ -1,0 +1,6 @@
+OBNC:
+  type: preprocessing
+
+defaults:
+  - OBNC/preprocessing: OBNC
+  - OBNC/inprocessing: lightgbm

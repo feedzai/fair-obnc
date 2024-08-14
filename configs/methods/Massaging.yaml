@@ -1,0 +1,6 @@
+Massaging:
+  type: preprocessing
+
+defaults:
+  - Massaging/preprocessing: Massaging
+  - Massaging/inprocessing: lightgbm

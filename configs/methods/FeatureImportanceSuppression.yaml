@@ -1,0 +1,6 @@
+FeatureImportanceSuppression:
+  type: preprocessing
+
+defaults:
+  - FeatureImportanceSuppression/preprocessing: FeatureImportanceSuppression
+  - FeatureImportanceSuppression/inprocessing: lightgbm
